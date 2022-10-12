@@ -5,7 +5,7 @@ metadata:
   labels:
     canary: http
 spec:
-  interval: 30
+  interval: 40
   http:
     - endpoint: http://status.savanttools.com/?code=200
       name: sample-check
